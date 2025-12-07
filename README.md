@@ -4,3 +4,4 @@ To use you must have the following modules installed:
 -opencv
 -tensorflow
 -keras
+-pandas
