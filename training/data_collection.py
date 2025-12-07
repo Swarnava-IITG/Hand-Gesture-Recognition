@@ -5,7 +5,7 @@ import mediapipe.python.solutions.drawing_utils as du
 import csv
 
 def main():
-    data_label=4
+    data_label=4 #increase this variable by 1 to add gesture
 
     cap = cv2.VideoCapture(0)
     capture_hands=hands.Hands()
