@@ -5,7 +5,7 @@ import mediapipe.python.solutions.drawing_utils as du
 import tensorflow as tf
 import keras
 
-labels=["Open","Closed","Victory","Thumbs Up","Thumbs Down"]
+labels=["Open","Closed","Victory","Thumbs Up","Thumbs Down"] #add new gesture label at the end of this list
 
 def main():
     cap = cv2.VideoCapture(0)
